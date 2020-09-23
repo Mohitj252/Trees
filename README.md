@@ -1,2 +1,2 @@
 # Trees
-This project contains problems related to tree data structures. If you like it you can fork it !!
+This project contains problems related to tree data structure. If you like it you can fork it !!

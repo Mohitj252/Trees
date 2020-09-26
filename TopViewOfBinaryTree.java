@@ -45,14 +45,14 @@ public class TopViewOfBinaryTree {
 
 		TopViewOfBinaryTree tree = new TopViewOfBinaryTree();
 		tree.root = new Node1(1); 
-        tree.root.left = new Node1(2); 
-        tree.root.right = new Node1(3); 
-        tree.root.left.left = new Node1(4); 
-        tree.root.left.right = new Node1(5); 
-        tree.root.right.left = new Node1(6); 
-        tree.root.right.right = new Node1(7); 
-        tree.root.right.left.right = new Node1(8); 
-        tree.root.right.right.right = new Node1(9); 
+		tree.root.left = new Node1(2); 
+		tree.root.right = new Node1(3); 
+		tree.root.left.left = new Node1(4); 
+		tree.root.left.right = new Node1(5); 
+		tree.root.right.left = new Node1(6); 
+		tree.root.right.right = new Node1(7); 
+		tree.root.right.left.right = new Node1(8); 
+		tree.root.right.right.right = new Node1(9); 
 		Map<Integer, ArrayList<Integer>> m = new HashMap<>();
 		tree.viewVerticalOrderTraversal(tree.root, 0, m);
 		for(Entry<Integer, ArrayList<Integer>> entry : m.entrySet()) {
